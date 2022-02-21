@@ -1,0 +1,50 @@
+a.button {
+   
+    border: white solid 2px;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    float:right;
+    width: auto;
+    border-radius: 7px;
+    margin: -2px 490px;
+  }
+  body{
+      background-image: url("bg.png");
+      background-repeat: no-repeat;
+      background-size: 1300px 700px;
+  }
+  div{
+    display: inline;
+    color: rgb(253, 251, 251);
+    display: flex;
+  }
+  li a{
+    color: white;
+    text-align: center;
+    padding: 3px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(219, 77, 77);
+  }
+  ul{
+    list-style-type: none;
+    margin:-22px 166px;
+    padding: 0;
+    width: 500px;
+  }
+  p{
+    border: 2px solid red;
+  }
+  
+  li{
+    float: left;
+  }
+  span{
+    width: 30px;
+  }
